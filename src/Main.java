@@ -9,7 +9,9 @@ public class Main {
         firstMassive[0] = 1;
         firstMassive[1] = 2;
         firstMassive[2] = 3;
+
         double[] secondMassive = {1.57, 7.654, 9.986};
+
         long[] thirdMassive = {65, 2563, 5475, 9586};
 
         System.out.println("Задание №2");
@@ -21,6 +23,7 @@ public class Main {
             }
         }
         System.out.println();
+
         for (int a = 0; a < 3; a++) {
             System.out.print(secondMassive[a]);
             if (a != secondMassive.length - 1) {
@@ -28,6 +31,7 @@ public class Main {
             }
         }
         System.out.println();
+
         for (int c = 0; c < thirdMassive.length; c++) {
             System.out.print(thirdMassive[c]);
             if (c != thirdMassive.length - 1) {
